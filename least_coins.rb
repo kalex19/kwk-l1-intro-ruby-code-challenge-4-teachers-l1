@@ -4,4 +4,6 @@ def least_coins(cents)
 
 while cents >= 25 
   coins [:quarters] += 1 
+  cents -= 25 
+  
  

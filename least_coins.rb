@@ -7,7 +7,10 @@ while cents >= 25
   cents -= 25 
 end
 
-
+while cents >= 10 
+coins [:dimes] += 1 
+cents -= 10
+end
 
 
  

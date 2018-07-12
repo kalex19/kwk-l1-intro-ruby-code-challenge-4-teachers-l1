@@ -12,5 +12,13 @@ coins [:dimes] += 1
 cents -= 10
 end
 
+while cents >= 5 
+coins [:nickels] += 1 
+cents -= 5 
+end
+
+while cents >= 1 
+coins [:penny] += 1 
+
 
  

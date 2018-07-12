@@ -1,5 +1,5 @@
 def least_coins(cents)
-  coins = {:quaters => 25, :dimes => 10, nickels => 5, penny => 1}
+  coins = {:quaters => 0, :dimes => 0, nickels => 0 , penny => 0}
 
 
 

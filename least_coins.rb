@@ -18,7 +18,8 @@ cents -= 5
 end
 
 while cents >= 1 
-coins [:penny] += 1 
+coins [:penny] = cents
+
 
 
  
